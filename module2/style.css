@@ -1,0 +1,60 @@
+#menu{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.smallbox{
+    border: 2px solid black;
+    width: 40px;
+    height:none;
+    float: right;
+    margin: -7px;
+    padding: 2px;
+}
+.bigboxstyling{
+    border: 4px solid black;
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    justify-self: auto;
+    background-color: rgb(202, 201, 201);
+}
+@media screen and (max-width :1264px) and (min-width: 850px) {
+    #boxoverflow1{
+        width:41vw;
+        height: auto;
+        
+    }
+    #boxoverflow2{
+        width:41vw ;
+        height: auto;
+        
+    }
+    #boxoverflow3{
+        width: 95%;
+        height: auto;
+    }
+    body{
+        margin: none;
+    }
+}
+@media screen and (min-width:500px) and (max-width:850px){
+    #boxoverflow1{
+        width:90%;
+        height: auto;
+    }
+    #boxoverflow2{
+        width:90%;
+        height: auto;
+    }
+    #boxoverflow3{
+        width: 90%;
+        height: auto;
+    }
+}
+body{
+    overflow: hidden scroll;
+    
+}
